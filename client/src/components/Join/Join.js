@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Join.css";
+import TextContainer from "../TextContainer/TextContainer";
+import "../TextContainer/TextContainer.css";
 
 const Join = () => {
   const [name, setName] = useState("");
@@ -35,6 +37,7 @@ const Join = () => {
           </button>
         </Link>
       </div>
+      <TextContainer />
     </div>
   );
 };
