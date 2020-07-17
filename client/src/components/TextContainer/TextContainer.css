@@ -2,7 +2,16 @@
   display: flex;
   flex-direction: column;
   margin-left: 100px;
-  color: darkgreen;
+  color: red;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.textContainer2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
   height: 60%;
   justify-content: space-between;
 }
@@ -13,7 +22,7 @@
   margin-bottom: 50%;
 }
 
-.activeItem {
+.online {
   display: flex;
   align-items: center;
 }

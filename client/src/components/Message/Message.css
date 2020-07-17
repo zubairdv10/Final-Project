@@ -50,18 +50,18 @@
   justify-content: flex-end;
 }
 
-.colorWhite {
+.color {
   color: white;
 }
 
-.colorDark {
+.color2 {
   color: #353535;
 }
 
-.backgroundBlue {
+.background {
   background: red;
 }
 
-.backgroundLight {
+.background2 {
   background: #f3f3f3;
 }

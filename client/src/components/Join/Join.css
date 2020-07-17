@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 
-.joinOuterContainer {
+.joinContainer1 {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -22,7 +22,7 @@ body {
   background-color: white;
 }
 
-.joinInnerContainer {
+.joinContainer2 {
   width: 20%;
 }
 
