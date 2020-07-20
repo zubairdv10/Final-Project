@@ -6,7 +6,7 @@ const TextContainer = () => (
   <div className="textContainer">
     <div>
       <h1>
-        Turbo Chat : a real time chatting application{" "}
+        Turbo Chat : the fastest way of connecting with friends
         <span role="img" aria-label="emoji">
           💬
         </span>
