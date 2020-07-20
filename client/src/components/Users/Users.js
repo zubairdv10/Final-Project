@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Users.css";
 import onlineIcon from "../../Icons/onlineIcon.png";
 
 const Users = ({ users }) => (
@@ -7,7 +7,7 @@ const Users = ({ users }) => (
     {users ? (
       <div>
         <h1>People currently online:</h1>
-        <div className="activeContainer">
+        <div className="onlineContainer">
           <h2>
             {users.map(({ name }) => (
               <div key={name} className="online">
