@@ -5,6 +5,7 @@ import "./InfoBar.css";
 import closeIcon from "../../Icons/xIcon.png";
 import onlineIcon from "../../Icons/onlineIcon.png";
 
+//Shows what room you are in
 const InfoBar = ({ room }) => (
   <div className="infoBar">
     <div className="leftContainer">

@@ -2,6 +2,7 @@ import React from "react";
 import "./Users.css";
 import onlineIcon from "../../Icons/onlineIcon.png";
 
+//Shows who's online
 const Users = ({ users }) => (
   <div className="textContainer2">
     {users ? (

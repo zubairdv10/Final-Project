@@ -2,6 +2,7 @@ import React from "react";
 
 import "./TextContainer.css";
 
+//Info about app
 const TextContainer = () => (
   <div className="textContainer">
     <div>

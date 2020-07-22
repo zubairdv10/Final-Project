@@ -3,6 +3,7 @@ import ScrollToBottom from "react-scroll-to-bottom";
 import "./Messages.css";
 import Message from "../Message/Message";
 
+//Whoever sent the message
 const Messages = ({ messages, name }) => (
   <ScrollToBottom className="messages">
     {messages.map((message, i) => (

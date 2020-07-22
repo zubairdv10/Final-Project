@@ -17,7 +17,7 @@ io.on("connection", (socket) => {
     const { error, user } = addUser({ id: socket.id, name, room });
 
     if (error) return callback(error);
-
+    //Admin message when user joins
     socket.emit("message", {
       user: "admin",
       text: `${user.name}, welcome to the room ${user.room}`,
@@ -47,7 +47,7 @@ io.on("connection", (socket) => {
 
     callback();
   });
-
+  //When user leaves the room
   socket.on("disconnect", () => {
     const user = removeUser(socket.id);
 

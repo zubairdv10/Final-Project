@@ -7,7 +7,7 @@ import "../TextContainer/TextContainer.css";
 const Join = () => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
-
+  //Where you log in
   return (
     <div className="joinContainer1">
       <div className="joinContainer2">

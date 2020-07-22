@@ -1,5 +1,6 @@
 const users = [];
 
+//Adding a user
 const addUser = ({ id, name, room }) => {
   name = name.trim().toLowerCase();
   room = room.trim().toLowerCase();
@@ -19,6 +20,7 @@ const addUser = ({ id, name, room }) => {
   return { user };
 };
 
+//Removing a user
 const removeUser = (id) => {
   const index = users.findIndex((user) => user.id === id);
 
@@ -27,8 +29,10 @@ const removeUser = (id) => {
   }
 };
 
+//User id
 const getUser = (id) => users.find((user) => user.id === id);
 
+//Room user is in
 const getUsersInRoom = (room) => users.filter((user) => user.room === room);
 
 module.exports = { addUser, removeUser, getUser, getUsersInRoom };

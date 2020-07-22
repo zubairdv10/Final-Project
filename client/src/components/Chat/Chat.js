@@ -17,6 +17,7 @@ const Chat = ({ location }) => {
   const [messages, setMessages] = useState([]);
   const ENDPOINT = "localhost:5000";
 
+  //Form
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
 
@@ -24,7 +25,7 @@ const Chat = ({ location }) => {
 
     setName(name);
     setRoom(room);
-
+    //If user enters same name
     socket.emit("join", { name, room }, (error) => {
       if (error) {
         alert(error);
@@ -58,6 +59,7 @@ const Chat = ({ location }) => {
 
   console.log(message, messages);
 
+  //Shows whos online
   return (
     <div className="outerContainer">
       <div className="container">
