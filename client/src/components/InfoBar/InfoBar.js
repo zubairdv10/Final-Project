@@ -2,7 +2,7 @@ import React from "react";
 
 import "./InfoBar.css";
 
-import closeIcon from "../../Icons/xIcon.png";
+import xIcon from "../../Icons/xIcon.png";
 import onlineIcon from "../../Icons/onlineIcon.png";
 
 //Shows what room you are in
@@ -14,7 +14,7 @@ const InfoBar = ({ room }) => (
     </div>
     <div className="rightContainer">
       <a href="/">
-        <img src={closeIcon} alt="close" />
+        <img src={xIcon} alt="close" />
       </a>
     </div>
   </div>
