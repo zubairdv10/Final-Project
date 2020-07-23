@@ -42,11 +42,11 @@
   padding-right: 10px;
 }
 
-.justifyStart {
+.Start {
   justify-content: flex-start;
 }
 
-.justifyEnd {
+.End {
   justify-content: flex-end;
 }
 
