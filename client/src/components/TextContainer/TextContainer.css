@@ -1,14 +1,17 @@
 .textContainer {
-  display: flex;
   flex-direction: column;
   margin-left: 100px;
   color: red;
-  height: 80%;
+  height: 90%;
   justify-content: center;
 }
 
 .textContainer h1 {
   margin-bottom: 0px;
+}
+
+.textContainer h3 {
+  color: black;
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {

@@ -8,7 +8,7 @@ import Messages from "../Messages/Messages";
 import Users from "../Users/Users";
 
 let socket;
-
+ 
 const Chat = ({ location }) => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");

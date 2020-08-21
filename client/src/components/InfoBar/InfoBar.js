@@ -2,7 +2,6 @@ import React from "react";
 
 import "./InfoBar.css";
 
-import xIcon from "../../Icons/xIcon.png";
 import onlineIcon from "../../Icons/onlineIcon.png";
 
 //Shows what room you are in
@@ -14,10 +13,12 @@ const InfoBar = ({ room }) => (
     </div>
     <div className="rightContainer">
       <a href="/">
-        <img src={xIcon} alt="close" />
+        <button class="button2 button1" type="button">
+          <span>Sign Out</span>
+        </button>
       </a>
     </div>
-  </div>
+  </div> 
 );
 
 export default InfoBar;
